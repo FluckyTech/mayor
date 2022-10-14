@@ -1,0 +1,331 @@
+*{
+ font-family: sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+ scroll-behavior: smooth;
+}
+body{
+    font-size: 20px;
+}
+header{
+background:transparent;
+opacity:70%;
+width: 100%; 
+height: 60px;
+position: fixed;;
+z-index:999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+ padding-left:20px;
+
+}
+.navigation a{
+        text-decoration:none ;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: rgb(0, 174, 255);
+        padding-left: 20px;
+    padding-right: 12px;
+}
+.navigation a:hover{
+    color: darkslategrey;
+    background-color: rgba(218, 14, 14, 0.534);
+    box-shadow: 1px 5px 20px  rgb(37, 12, 24);
+    box-sizing: inherit;
+    border-radius: 9px;
+    padding: 0.3105em 0.8875em ;
+    
+}
+.log{
+text-decoration:none ;
+font-size: 1.9em;             
+font-weight: 700;
+color:rgb(0, 174, 255);
+text-transform:uppercase ;
+padding: 11px 30px;
+}
+.log i{
+    color: black;
+    background-color:yellowgreen ;
+    border-radius: 100%;
+    height: 1.4em;
+    width: 1.4em;
+    padding-left: 9px;
+    padding-top: 3px;
+}.log i:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+.log:hover{
+    color: cornsilk;
+    background-color:rgb(0, 174, 255);
+    text-decoration: none;
+    font-size:2em ;
+    font-weight:700;
+    display: inline-block;
+   
+    border-radius: 10px;
+}
+
+
+section{ padding: 100px 200px;
+   
+    
+}
+.main{
+   width: 100%;
+   min-height:100vh ; 
+   display:flex;
+   align-items: center;
+ background: url(ab.jpg)  no-repeat ;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed; 
+}
+.main h2{
+   color: lightgray;
+  font-size:1.7em;
+    font-weight:500;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main span{
+    display: inline-block;
+font-size:3em;
+color: rgba(255, 0, 0, 0.596);
+font-weight: 600;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main h3{
+    color: rgb(176, 243, 240);
+    font-size: 2em;
+    font-style: italic;
+letter-spacing: 1px;
+margin-top:10px;
+margin-bottom:30px ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-btn{
+    color: cornsilk;
+  background-color: rgba(0, 255, 213, 0.623);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight:700;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+letter-spacing:1px;
+border-radius: 15px;
+text-transform: capitalize;
+;
+
+margin-top: 30px;
+}
+.main-btn:hover{
+    color: #000016;
+  background-image: linear-gradient(rgba(0, 255, 213, 0.623),  rgb(235, 224, 181),rgb(145, 241, 237));
+    transform: scale(0.9);
+    transition: 0.5s ease;
+    font-size: 1.2em;
+    padding:.8105em 1.2875em;
+
+
+}
+ .social-icon a{
+     color:#fff;
+    font-size:3em;
+    padding-right:30px ;
+ }
+  .ab:hover{
+     color: rgb(91, 91, 247);
+ }
+ .i:hover{
+     color: rgb(240, 135, 193);
+ } 
+ .w:hover{
+    color:rgba(0, 128, 0, 0.822);
+    transform: rotate(-360deg);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size:2.4em;
+   color:000010 ;
+   font-weight: 800;
+   margin-bottom: 30px;
+   font-style: italic;
+   text-transform:uppercase;
+        
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   flex-wrap: wrap;
+}
+.card{
+    background-color:rgb(255, 113, 113);
+    width: 21.25em;
+    box-shadow:0px 5px 25px black ;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px; 
+    transition: 0.7s ease;  
+                                                             
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: ease;
+}
+
+.icon{
+    color:rgba(100, 39, 39, 0.829);
+     font-size: 8em;
+     text-align: center;
+    
+}
+.info{
+    color: black;
+    text-align: center;
+   
+}
+.info h3{
+    color: rgb(15, 70, 107);
+    font-size: 1.3em;
+    font-weight:800;
+    margin: 10px;
+    font-family:'Times New Roman' ;
+    text-align: center;
+    text-decoration-color:black ;
+   
+}
+.projects{
+
+    background-color: #000016;
+      
+}
+.projects h2{
+    color: #fff;
+}
+.projects .content{
+    margin-top: 30px;
+
+}    
+
+.project-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+  min-height: 14em;
+    width:23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform:scale(1.1) ;
+}
+.project-image img{
+     width: 100%;                                                                                                                                                 
+}
+.project-card:hover .project-image{
+    opacity:0.76;
+}
+.project-info{
+    padding: 1em;
+}
+ .project-category{
+     font-size: 0.8em;
+     font-weight: bolder;
+     color: black;
+ }
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.mor:hover{
+    color: black;
+}
+.contact .info h3{
+    text-align: center;
+ color:brown;
+ font-size: 30px;
+ text-shadow: black;
+ text-transform: uppercase;
+}
+.contact .info p{
+    font-size: 1.3em;
+}
+ footer{
+   
+     background-color:gray;
+     padding: 2em;
+     justify-content: space-between;
+     display:flex ;
+     color: #fff;
+    
+     margin-bottom: -120px;
+    
+ }
+.footer-title{
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: -20px;
+    text-transform: lowercase;
+  
+}
+.footer-title span{
+    color:wheat;
+}
+ @media (max-width:1023px){
+    header{
+        widows: 100%;
+    }
+     .navigation a{
+         padding-left:7px;
+     }
+
+     .title{
+         font-size: 1,8em;
+     }
+     section{
+         padding: 70px 20px;
+     }
+     .main-content h2{
+         font-size: 1;
+     }
+     .main-content h3{
+         font-size: 1.6em;
+     }
+     content{
+         flex-direction: column;
+         align-items: center;
+
+     }
+
+ }
+
+ @media(max-width:621px){
+ body{
+     font-size: 12px;
+ }
+ .main-content h2{
+    font-size: 0.8em;-ms-ime-mode: auto;
+}
+.main-content h3{
+    font-size: 1.6em;
+}
+@media(max-width: 300px){
+    body{
+        font-size: 10px;
+    }
+}
+
+    
+ 
+ }
